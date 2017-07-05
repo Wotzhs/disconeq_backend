@@ -2,7 +2,17 @@
   "name": "disconeq_backend",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts" : {
+    "start": "nodemon index.js"
+  },
   "repository": "git@github.com:Wotzhs/disconeq_backend.git",
   "author": "Wong Tze Hsiung <wotzhs@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "4.10.6",
+    "nodemon": "^1.11.0"
+  }
 }
